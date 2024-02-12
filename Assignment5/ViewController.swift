@@ -40,11 +40,9 @@ class ViewController: UIViewController {
   
     @objc func updateUI()
     {
-        
         lblAdventureDescription.text = objAdventureLogic.getAdventureDescription()
         lblTitle.text = objAdventureLogic.getAdventureTitle()
-        setButtonTextAndVisibility(objButton: btnChoice1, 
-                                   strButtonText: objAdventureLogic.getButtonText(intChoice: 0))
+        setButtonTextAndVisibility(objButton: btnChoice1, strButtonText: objAdventureLogic.getButtonText(intChoice: 0))
         setButtonTextAndVisibility(objButton: btnChoice2, strButtonText: objAdventureLogic.getButtonText(intChoice: 1))
         setButtonTextAndVisibility(objButton: btnChoice3, strButtonText: objAdventureLogic.getButtonText(intChoice: 2))
     }
