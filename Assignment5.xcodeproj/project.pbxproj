@@ -13,6 +13,8 @@
 		B1E8827A2B74A34A002111CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E882782B74A34A002111CE /* Main.storyboard */; };
 		B1E8827C2B74A34B002111CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E8827B2B74A34B002111CE /* Assets.xcassets */; };
 		B1E8827F2B74A34B002111CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E8827D2B74A34B002111CE /* LaunchScreen.storyboard */; };
+		B1E882882B74A38B002111CE /* AdventureLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E882872B74A38B002111CE /* AdventureLogic.swift */; };
+		B1E8828A2B74A3C1002111CE /* AdventureQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E882892B74A3C1002111CE /* AdventureQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B1E8827B2B74A34B002111CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1E8827E2B74A34B002111CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1E882802B74A34B002111CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E882872B74A38B002111CE /* AdventureLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureLogic.swift; sourceTree = "<group>"; };
+		B1E882892B74A3C1002111CE /* AdventureQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		B1E882712B74A349002111CE /* Assignment5 */ = {
 			isa = PBXGroup;
 			children = (
+				B1E882862B74A36D002111CE /* Model */,
 				B1E882722B74A34A002111CE /* AppDelegate.swift */,
 				B1E882742B74A34A002111CE /* SceneDelegate.swift */,
 				B1E882762B74A34A002111CE /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				B1E882802B74A34B002111CE /* Info.plist */,
 			);
 			path = Assignment5;
+			sourceTree = "<group>";
+		};
+		B1E882862B74A36D002111CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1E882872B74A38B002111CE /* AdventureLogic.swift */,
+				B1E882892B74A3C1002111CE /* AdventureQuestion.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +154,9 @@
 			files = (
 				B1E882772B74A34A002111CE /* ViewController.swift in Sources */,
 				B1E882732B74A34A002111CE /* AppDelegate.swift in Sources */,
+				B1E8828A2B74A3C1002111CE /* AdventureQuestion.swift in Sources */,
 				B1E882752B74A34A002111CE /* SceneDelegate.swift in Sources */,
+				B1E882882B74A38B002111CE /* AdventureLogic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
